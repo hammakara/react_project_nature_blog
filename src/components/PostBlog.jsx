@@ -4,7 +4,7 @@ import PostCard from "./PostCard";
 export default function PostBlog() {
   const [posts, setPosts] = useState([]);
   return (
-    <section className="w-full max-w-7xl mx-auto">
+    <section className="w-full max-w-7xl mx-auto" id="blog">
       <div className="flex justify-between items-center mb-3 px-16 lg:px-6">
         <h3 className="font-bold text-xl">Popular Post</h3>
         <a href="" className="underline text-green-500">

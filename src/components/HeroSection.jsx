@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <div className="max-w-7xl mx-auto ">
+    <div className="max-w-7xl mx-auto " id="home">
       <div className="block lg:flex justify-center lg:justify-between items-center">
         {/* welcome  */}
         <div className="w-full  px-3 lg:px-6 py-3 lg:py-6">

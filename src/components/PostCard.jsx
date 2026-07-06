@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PostCard() {
   return (
-    <div className="w-full  border border-gray-200 rounded-sm shadow-md hover:border-green-500 hover:shadow-md hover:rounded-md hover:shadow-green-500 transform hover:scale-105 transition duration-300 py-3">
+    <div className="w-full  border border-gray-200 rounded-sm shadow-md hover:border-green-500 hover:shadow-md hover:rounded-md hover:shadow-green-500 transform hover:scale-105 hover:cursor-pointer transition duration-300 py-3">
       <img
         className="w-full h-auto"
         src="https://blogging-kappa-henna.vercel.app/images/blog_01.png"
